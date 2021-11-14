@@ -1,0 +1,38 @@
+{
+  "name": "vue-custom-element-shadow-examples",
+  "version": "0.1.0",
+  "scripts": {
+    "watch": "vue-cli-service serve --open",
+    "serve": "vue-cli-service serve",
+    "inspect": "vue-cli-service inspect",
+    "lint": "vue-cli-service lint",
+    "build": "vue-cli-service build --target wc --name my-custom-module src/main.js",
+    "http": "http-server ./ -c-1 -o /dist/demo"
+  },
+  "dependencies": {
+    "autoprefixer": "^9",
+    "core-js": "^3.6.5",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "vue": "^2.6.11",
+    "vue-custom-element": "^3.2.14",
+    "vuetify": "git+https://github.com/bryanvaz/vuetify-pkg.git#master"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-eslint": "^10.1.0",
+    "deepmerge": "^4.2.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "http-server": "^0.12.3",
+    "sass": "^1.32.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.6.0",
+    "webpack": "^4.0.0"
+  }
+}
